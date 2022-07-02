@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+
+* {
+    font-family: "Be Vietnam Pro", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --rojoBrillante: rgb(242, 95, 58);
+    --azulOscuro: rgb(35, 44, 81);
+    --azulGrisáceoOscuro: rgb(143, 148, 167);
+    --azulMuyOscuro: rgb(29, 30, 37);
+    --rojoMuyPálido: rgb(255, 239, 234);
+    --varianteGrisClaro: rgb(249, 249, 249);
+}
+
+body {
+    background-image: ("img/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-position: 50.5rem -12.5rem;
+    
+}
+
+main {
+    background-image: ("img/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-position: -31.25rem 62.5rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4.69rem;
+   
+}
+
+nav ul {
+    display: flex;
+    list-style: none;   
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #242e52;
+    padding: 0 1.75em;
+    font-weight: 500;
+    font-size: 0.81em;
+}
+
+.logo {
+    width: 9em;
+    height: 1.5em;
+}
+
+.boton-naranja {
+    background-color: rgb(242, 95, 58);
+    width: 8.37em;
+    height: 2.75em;
+    border-radius: 3em;
+    color: var(--varianteGrisClaro);
+    border: none;
+    box-shadow: 0px 4px 7px rgba (o, 0, 0, 0.25);
+}
+
+.boton-naranja-chico {
+    background-color: rgb(242, 95, 58);
+    width: 4.31rem;
+    height: 2.68rem;
+    border-radius: 1.875rem;
+    color: var(--varianteGrisClaro);
+    border: none;
+    box-shadow: 0px 4px 7px rgba (o, 0, 0, 0.25);
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin: 36px 0px 28px 0px;
+    margin: 10.31rem 11.87em;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 3.625rem;
+    font-weight: 700;
+    Line-height: 4.125em
+}
+
+.home p {
+    font-weight: 500;
+    font-size: 1.03rem;
+    margin: 1.75rem 0px;
+    line-height: 157.1%;
+    width: 23.125rem;
+}
+
+.home2 {
+    text-align: justify;
+}
+
+.manage {
+    text-align: left;
+    font-size: 1.03rem
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e1e26;
+    font-weight: 100;
+}
+
+.naranja {
+    display: flex;
+    background-color: #F3613C;
+}
